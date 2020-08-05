@@ -4,5 +4,6 @@ package hello
 import "fmt"
 
 func Echo(name string) string{
-	fmt.Printf("Hi,%s \n",name)
+	return fmt.Printf("Hi,%s \n",name)
+	
 }
