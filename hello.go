@@ -3,6 +3,6 @@ package hello
 
 import "fmt"
 
-func Echo(string name) string{
+func Echo(name string) string{
 	fmt.Printf("Hi,%s\n",name)
 }
